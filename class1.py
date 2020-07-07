@@ -1,90 +1,115 @@
-"""mylist=[]
-mylist.append(5)
-mylist.append(8)
-mylist.append(76)
-mylist.append(87)
-mylist.append(74)
-mylist.append(99)
-mylist.append(54)
-mylist.append(66)
-mylist.append(32)
-mylist.append(7)
-print(mylist[0]) 
-print(mylist[1])
-print(mylist[2]) 
-print(mylist[3])
-print(mylist[4])
-print(mylist[5])
-print(mylist[6])
-print(mylist[7])
-print(mylist[8])
-# animals list
-animals = ['cat', 'dog', 'rabbit', 'guinea pig']
-# 'rabbit' is removed
+"""name="john"
+print("hello,%s"%name)
 
-animals.remove('rabbit')
-# Updated animals List
+name="john"
+age=23
+print("%s is %d years old."%(name,age))
 
-print('Updated animals list: ', animals)
+name1="john"
+name2="abin"
+print("%s"%(name1))
+print("%s"%(name2))"""
 
-cars=["ferrari","toyota","nissan","lamborghini","mercedes"]
-#abin is added
-cars.append("abin")
-cars.append(99.9)
-cars.remove("toyota")
-print("updated cars list",cars)
+"""# A Simple Python templaye example
+from string import Template
 
-abin=["messi","ronaldo","neymar","mbappe","pogba"]
-#ronaldo is removed
-abin.remove("ronaldo")
-print(abin)
+# Create a template that has placeholder for value of x
+t = Template('x is $x')
 
-number=20+5*5/5.0
+# Substitute value of x in above template
+print (t.substitute({'x' : 1})) 
+# A Python program to demonstrate working of string template
+from string import Template
+
+# List Student stores the name and marks of three students
+Student = [('Ram',90), ('Ankit',78), ('Bob',92)]
+
+# We are creating a basic structure to print the name and
+# marks of the students.
+t = Template('Hi $name, you have got $marks marks')
+
+for i in Student:
+print (t.substitute(name = i[0], marks = i[1]))""" 
+
+# A Simple Python templaye example
+from string import Template
+
+# Create a template that has placeholder for value of x
+t = Template('x is $x')
+
+# Substitute value of x in above template
+print (t.substitute({'x' : 1})) 
+# A Python program to demonstrate working of string template
+from string import Template
+
+# List Student stores the name and marks of three students
+Student = [('Ram',90), ('Ankit',78), ('Bob',92)]
+
+# We are creating a basic structure to print the name and
+# marks of the students.
+t = Template('Hi $name, you have got $marks marks')
+
+for i in Student:   
+    print (t.substitute(name = i[0], marks = i[1])) 
 
 
-print(number)
 
-remainder = 11 % 3
-print(remainder)
 
-squared=7**2
-cubed=2**3
-print(squared)
-print(cubed)
 
-lotsofhellos="Updated animals list"*10
-print(lotsofhellos)
 
-foods=["noodles","pizza","burger","curry","butter","spaghetti"]
-foods.append("custard")
-foods.remove("curry")
-print("updated food list",foods)
 
-myfloat=76+8*6/3.7
-print(myfloat)
 
-remainder=54%35
-print(remainder)
 
-squared=995**2
-cubed=589**3
-print(squared)
-print(cubed)
 
-lotsofspectre="spectre"*25
-print(lotsofspectre)"""
 
-x = object()
-y = object()
 
-# TODO: change this code
-x_list = [x]
-y_list = [y]
-big_list = []
 
-print("x_list contains %d objects" % len(x_list))
-print("y_list contains %d objects" % len(y_list))
-print("big_list contains %d objects" % len(big_list))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""# A Simple Python templaye example
+from string import Template
+
+# Create a template that has placeholder for value of x
+t = Template('x is $x')
+
+# Substitute value of x in above template
+print (t.substitute({'x' : 1})) 
+# A Python program to demonstrate working of string template
+from string import Template
+
+# List Student stores the name and marks of three students
+Student = [('john',23),('abin',13)]
+
+# We are creating a basic structure to print the name and marks of the students.
+t = Template('Hi, i am $name and i am $marks years old')
+
+for i in Student:
+     print[t.substitute(name = i(0,1),(marks,i(2,3)]
+#print (t.substitute(name = i[0], marks = i[1])) """
+
+
+
+
+
+
+
+
+
+
+
 
 
 
