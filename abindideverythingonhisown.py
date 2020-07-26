@@ -31,3 +31,28 @@ print(rem)
 sq=1234567890098765432112345678876543212345676543234567**234
 print(sq)
 
+class MyClass:
+    variable = "blah"
+
+
+myobjectx=MyClass()
+
+myobjectx.variable
+
+print(myobjectx.variable)
+
+def my_function():
+
+	print("greetings")
+
+def my_function_with_args(message):
+	print("This is a message inside the class")
+
+def sum_two_numbers(a, b):
+    return a + b
+my_function()
+
+my_function_with_args("message")
+
+x = sum_two_numbers(1,2)
+
